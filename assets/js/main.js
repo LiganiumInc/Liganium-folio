@@ -7,7 +7,7 @@ const Home = {template: `
             <img src="./assets/img/Ben_imgbg.png" alt="user avatar">
             <h1>Bernardin LIGAN</h1>
             <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="citation">" La vérité ne peut être trouvée qu'à un endroit : le code. " - Robert C. Martin</p>
             <div class="skills_projects_link">
                 <router-link to="/projects"> Projects | Skills </router-link>
             </div>
@@ -24,7 +24,7 @@ const Projects = {
                 <div class="bio__media__text">
                     <h1>Bernardin LIGAN</h1>
                     <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>“La vérité ne peut être trouvée qu'à un endroit: le code.” - Robert C. Martin</p>
                 </div>
             </div> 
             <nav>
@@ -115,7 +115,7 @@ const Projects = {
             page: 1,
             loading : true,
             errors: false,
-            gitHubLink: 'https://github.com/fbhood'
+            gitHubLink: 'https://github.com/LiganiumInc'
             }
     },
     methods:{

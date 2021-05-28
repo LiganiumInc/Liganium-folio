@@ -158,8 +158,9 @@ main#home {
 }
 #home > .about__me p {
     font-weight: 100;
-    font-size: 22px;
-    padding: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1rem;
 }
 .skills_projects_link {
     position: relative;
