@@ -4,9 +4,9 @@ const Home = {template: `
 
     <main id='home'>
         <div class="about__me">
-            <img src="./assets/img/avatar.svg" alt="user avatar">
-            <h1>John Doe</h1>
-            <h3>Python Expert</h3>
+            <img src="./assets/img/Ben_imgbg.png" alt="user avatar">
+            <h1>Bernardin LIGAN</h1>
+            <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div class="skills_projects_link">
                 <router-link to="/projects"> Projects | Skills </router-link>
@@ -20,10 +20,10 @@ const Projects = {
         
         <header id="site_header" class="container d_flex">
             <div class="bio__media">
-                <img src="./assets/img/avatar.svg" alt="user avatar">
+                <img src="./assets/img/Ben_imgbg.png" alt="user avatar">
                 <div class="bio__media__text">
-                    <h1>John Doe</h1>
-                    <h3>Python Expert</h3>
+                    <h1>Bernardin LIGAN</h1>
+                    <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div> 
@@ -120,7 +120,7 @@ const Projects = {
     },
     methods:{
         fetchData: function () {
-            axios.get(`https://api.github.com/users/fbhood/repos?per_page=${this.perPage}&page=${this.page}`)
+            axios.get(`https://api.github.com/users/LiganiumInc/repos?per_page=${this.perPage}&page=${this.page}`)
                 .then(response => { 
                     console.log(response);
                     this.projects = response.data;
