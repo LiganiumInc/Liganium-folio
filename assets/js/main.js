@@ -6,7 +6,7 @@ const Home = {template: `
         <div class="about__me">
             <img src="./assets/img/Ben_imgbg.png" alt="user avatar">
             <h1>Bernardin LIGAN</h1>
-            <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
+            <h3>Python Specialist | Data Analyst Freelance</h3>
             <p class="citation">" La vérité ne peut être trouvée qu'à un endroit : le code. " - Robert C. Martin</p>
             <div class="skills_projects_link">
                 <router-link to="/projects"> Projects | Skills </router-link>
@@ -23,7 +23,7 @@ const Projects = {
                 <img src="./assets/img/Ben_imgbg.png" alt="user avatar">
                 <div class="bio__media__text">
                     <h1>Bernardin LIGAN</h1>
-                    <h3>Python Specialist | Data Analyst Freelance | Django Developer</h3>
+                    <h3>Python Specialist | Data Analyst Freelance</h3>
                     <p>“La vérité ne peut être trouvée qu'à un endroit: le code.” - Robert C. Martin</p>
                 </div>
             </div> 
